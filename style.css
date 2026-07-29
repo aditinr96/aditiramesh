@@ -31,6 +31,7 @@ footer {
 .site-header {
   padding: 3rem 0 1rem;
   border-bottom: 1px solid #e5e5e5;
+  text-align: center;
 }
 
 .site-header h1 {
@@ -50,6 +51,7 @@ footer {
   display: flex;
   gap: 1.25rem;
   padding-bottom: 0.5rem;
+  justify-content: center;
 }
 
 .site-header nav a {
