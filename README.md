@@ -3,7 +3,7 @@
 ## Pages
 - `index.html` — About
 - `work-with-me.html` — Work With Me
-- `past-projects.html` — Past Projects
+- `selected-work.html` — Selected Work
 
 Shared styling lives in `style.css`. Fonts: Inter (body), Lora (headings), accent color `#5e17eb`.
 
