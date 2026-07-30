@@ -1,9 +1,36 @@
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('fonts/PPNeueMontreal-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('fonts/PPNeueMontreal-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('fonts/PPNeueMontreal-Extrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('fonts/PPNeueMontrealText-Book.otf') format('opentype');
+  font-weight: 450;
+  font-style: normal;
+}
+
 :root {
   --bg: #f4f2ed;
   --text: #1a1a1a;
   --muted: #5c5c5c;
   --accent: #5e17eb;
-  --font: 'Space Grotesk', sans-serif;
 }
 
 * {
@@ -14,7 +41,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Neue Montreal', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -36,7 +63,7 @@ body {
 
 .site-name {
   margin: 0 0 2rem;
-  font-family: var(--font);
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
   font-size: 1.75rem;
   line-height: 1.2;
@@ -59,7 +86,7 @@ body {
 }
 
 .side-nav a {
-  font-family: var(--font);
+  font-family: 'Neue Montreal', sans-serif;
   font-weight: 500;
   font-size: 1.05rem;
   color: var(--muted);
@@ -81,7 +108,7 @@ section {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Neue Montreal', sans-serif;
   font-weight: 600;
   font-size: 1.4rem;
   color: var(--accent);
@@ -89,7 +116,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Neue Montreal', sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
   color: var(--accent);
@@ -129,7 +156,7 @@ a:focus {
 
 .contact-btn {
   display: inline-block;
-  font-family: var(--font);
+  font-family: 'Neue Montreal', sans-serif;
   font-weight: 500;
   font-size: 0.9rem;
   color: var(--accent);
@@ -147,6 +174,8 @@ a:focus {
 
 #selected-work h3 {
   color: var(--text);
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 640px) {
