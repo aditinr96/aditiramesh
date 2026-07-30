@@ -164,10 +164,17 @@ a:focus {
   border-radius: 999px;
   padding: 0.4rem 1.25rem;
   text-decoration: none;
+  cursor: pointer;
+  background: none;
   transition: background 0.2s, color 0.2s;
 }
 
 .contact-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.contact-btn.copied {
   background: var(--accent);
   color: #fff;
 }

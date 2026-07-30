@@ -18,7 +18,7 @@
       <a href="work-with-me.html">→ Work With Me</a>
       <a href="selected-work.html" class="active">→ Selected Work</a>
     </nav>
-    <a class="contact-btn" href="mailto:aditi-all@proton.me">Contact</a>
+    <button class="contact-btn" onclick="copyEmail(this)">Contact</button>
   </aside>
 
     <main class="content">
@@ -50,5 +50,16 @@
 
 </div>
 
+<script>
+function copyEmail(btn) {
+  navigator.clipboard.writeText('aditi-all@proton.me');
+  btn.textContent = 'Copied!';
+  btn.classList.add('copied');
+  setTimeout(() => {
+    btn.textContent = 'Contact';
+    btn.classList.remove('copied');
+  }, 2000);
+}
+</script>
 </body>
 </html>
